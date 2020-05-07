@@ -1,0 +1,88 @@
+.video__text {
+  background: linear-gradient( rgba(0,0,0,0.3),
+  rgba(0,0,0,0.3)), url(../../../images/kamchatka3.png);
+  min-width: 36.4rem;
+  max-width: 36.4rem;
+  height: 20rem;
+  margin: auto;
+  border-radius: 5px;
+  color: white;
+  background-size: cover;
+}
+
+
+.video__text:hover {
+  background: linear-gradient( rgba(0,0,0,0.7),
+  rgba(0,0,0,0.7)), url(../../../images/kamchatka3.png);
+  background-size: cover;
+}
+
+@media screen and (max-width: 1166px) {
+  .video__text {
+    max-width: 30rem;
+    min-width: 30rem;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1126px) {
+  .video__text {
+    max-width: 30rem;
+    min-width: 26rem;
+  }
+}
+
+@media screen and (max-width: 1026px) {
+  .video__text {
+    max-width: 26rem;
+    min-width: 18rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .video__text {
+    max-width: 18rem;
+    min-width: 18rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .video__text {
+    max-width: 21.5rem;
+    min-width: 18rem;
+    height: 12.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .video__text {
+    max-width: 18rem;
+    min-width: 12rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .video__text {
+    max-width: 21.4rem;
+    min-width: 18rem;
+    height: 17rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .video__text {
+    height: 12.5rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .video__text {
+    height: 12rem;
+    max-width: 18rem;
+    min-width: 10rem;
+  }
+}

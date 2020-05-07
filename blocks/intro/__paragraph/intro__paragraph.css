@@ -1,0 +1,32 @@
+.intro__paragraph {
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  max-width: 683px;
+  margin-bottom: 10px;
+  margin-top: 48px;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 426px) {
+  .intro__paragraph {
+    margin-top: 2rem;
+    max-width: 24.5rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .intro__paragraph {
+    max-width: 21.4rem;
+    font-size: 1rem;
+    line-height: 1.6875rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .intro__paragraph {
+    line-height: 169.43%;
+  }
+}

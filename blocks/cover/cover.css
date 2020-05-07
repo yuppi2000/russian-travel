@@ -1,0 +1,69 @@
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
+
+.cover {
+  margin-top: 6.375rem;
+  max-width: 74rem;
+  background: linear-gradient( rgba(42,44,47,0.3),
+  rgba(42,44,47,0.3)), url(../../images/cover.png);
+  background-position: center;
+  height: 37.125rem;
+  margin-bottom: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cover:hover {
+  background: linear-gradient( rgba(42,44,47,0.7),
+  rgba(42,44,47,0.7)), url(../../images/cover.png);
+}
+
+@media screen and (max-width: 1026px) {
+  .cover {
+    max-width: 64rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .cover {
+    margin-top: 3.375rem;
+    max-width: 48rem;
+    height: 31.25rem;
+    margin-bottom: 6.375rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cover {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .cover {
+    margin-top: 0;
+    height: 19rem;
+    max-width: 26.6rem;
+    background-size: cover;
+  }
+  .cover:hover {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .cover {
+    height: 17rem;
+    max-width: 23.4rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .cover {
+    max-width: 20rem;
+    height: 13.5rem;
+  }
+}

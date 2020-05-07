@@ -1,0 +1,19 @@
+.lead__map {
+  position: absolute;
+  top: 32rem;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+  .lead__map {
+    top: 28rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .lead__map {
+    top: 13rem;
+  }
+}

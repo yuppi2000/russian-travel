@@ -1,0 +1,12 @@
+.places__info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 3.75rem;
+}
+
+@media screen and (max-width: 769px) {
+  .places__info {
+    margin-bottom: 2rem;
+  }
+}

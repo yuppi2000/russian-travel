@@ -1,0 +1,18 @@
+@import url(./__container/comments__container.css);
+@import url(./__card/comments__card.css);
+@import url(./__userpic/comments__userpic.css);
+@import url(./__text/comments__text.css);
+@import url(./__name/comments__name.css);
+
+.comments {
+  max-width: 74rem;
+  min-width: 41.25rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 769px) {
+  .comments {
+    max-width: 41.25rem;
+    min-width: 10rem;
+  }
+}

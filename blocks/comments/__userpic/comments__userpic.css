@@ -1,0 +1,13 @@
+.comments__userpic {
+  margin-bottom: 2.625rem;
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 769px) {
+  .comments__userpic {
+    max-width: 6rem;
+    margin-bottom: 0;
+  }
+}

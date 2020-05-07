@@ -1,0 +1,11 @@
+.header__language {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 321px) {
+  .header__language {
+    margin-left: -4.5rem;
+  }
+}

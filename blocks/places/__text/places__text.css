@@ -1,0 +1,62 @@
+.places__text {
+  max-width: 30.25rem;
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .places__text {
+    max-width: 33rem;
+    min-width: 23rem;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .places__text {
+    max-width: 25rem;
+    min-width: 18rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .places__text {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    max-width: 18rem;
+    min-width: 10rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .places__text {
+    max-width: 32.8rem;
+    min-width: 26.6rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .places__text {
+    margin: auto;
+    max-width: 24.625rem;
+    min-width: 21.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .places__text {
+    max-width: 21.4rem;
+    min-width: 17rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .places__text {
+    max-width: 17rem;
+    min-width: 0;
+  }
+}

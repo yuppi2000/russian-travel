@@ -1,0 +1,25 @@
+.video__duration {
+  margin-top: 5rem;
+  margin-left: 1.875rem;
+  letter-spacing: 0.3em;
+}
+
+@media screen and (max-width: 769px) {
+  .video__duration {
+    margin-top: 0.5rem;
+    max-width: 14rem;
+    min-width: 9rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .video__duration {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .video__duration {
+    margin-top: 0.3rem;
+  }
+}
